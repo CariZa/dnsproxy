@@ -33,8 +33,6 @@ func Getip() {
 
 			if ip.To4() != nil {
 				fmt.Printf("IPv4: %s\n", ip.String())
-			} else if ip.To16() != nil {
-				fmt.Printf("IPv6: %s\n", ip.String())
 			}
 		}
 	}
